@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forma</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    input {
+        margin: 10px 0px 10px 0px;
+    }
+
+    .forma {
+        display: flex;
+        justify-content: center;
+    }
+</style>
+
+<body>
+    <div class="forma">
+        <form>
+            <input type="hidden" name="project_name" value="Test Site">
+            <input type="hidden" name="admin_email" value="nelit2389@gmail.com">
+            <input type="hidden" name="form_subject" value="Новая заявка">
+
+            <input type="text" name="Name" placeholder="Enter your name"><br>
+            <input type="number" name="Phone" placeholder="Enter your mobile phone"><br>
+            <button>Send Form</button>
+        </form>
+    </div>
+    
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
